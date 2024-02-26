@@ -1,0 +1,111 @@
++++
+title="Committee"
++++
+<!-- Begin committee.txt -->
+
+<p>If you want to contact the committee, it's recommended that you e-mail the <a href="mailto:soc-cusfs@lists.cam.ac.uk">committee list</a> in the first place.</p>
+
+<h2>CUSFS</h2>
+
+<p>The committee for 2023-2024 is as follows:</p>
+
+<table>
+	<tr>
+		<th></th>
+		<th>Name</th>
+		<th>CRSid</th>
+	</tr>
+	<tr>
+		<td>Chairbeing</td>
+		<td>Sol Dubock (They/Them)</td>
+		<td>sjd210</td>
+	</tr>
+	<tr>
+		<td>Secretary</td>
+		<td>Maxwell Pettett (He/Him)</td>
+		<td>mp2015</td>
+	</tr>
+	<tr>
+		<td>Junior Treasurer</td>
+		<td>Lauren Mason (She/Her) </td>
+		<td>llm34</td>
+	</tr>
+	<tr>
+		<td>Social Secretary</td>
+		<td>Rosalind Mackey (She/Her)</td>
+		<td>ram210</td>
+	</tr>
+	<tr>
+		<td>Librarian</td>
+		<td>Sam Hutton (Any Pronouns)</td>
+		<td>sh2154</td>
+	</tr>
+	<tr>
+		<td>TTBA Editor</td>
+		<td>Alex Colesmith</td>
+		<td>atc44</td>
+	</tr>
+</table>
+
+<h2>J&oacute;msborg</h2>
+
+<p>In 2022-2023, the Reeve and their companions are:</p>
+
+<table>
+	<tr>
+		<th></th>
+		<th>Name</th>
+	</tr>
+	<tr>
+		<td>Reeve</td>
+		<td>John Leung</td>
+	</tr>
+	<tr>
+		<td>Runecaster</td>
+		<td>Rose Conway</td>
+	</tr>
+	<tr>
+		<td>Geldjarl</td>
+		<td>Lauren Mason</td>
+	</tr>
+	<tr>
+		<td>Meadkeeper</td>
+		<td>Rosalind Mackey</td>
+	</tr>
+	<tr>
+		<td>Bard</td>
+		<td>Gwen Sellers</td>
+	</tr>
+</table>
+
+The sun raised by this Reeve is **a Black Hole, a singleton of matter**!
+
+<h2>Vice Presidents</h2>
+
+The Vice presidents for this year, as chosen by being drawn from a hat with many duplicates, were:
+
+<table>
+	<tr>
+		<td> Shadow the Hedgehod </td>
+	</tr>
+	<tr>
+		<td> Being Queer </td>
+	</tr>
+	<tr>
+		<td> The Spanish Inquisition </td>
+	</tr>
+	<tr>
+		<td> The Plant <u>Based</u> Universities Motion </td>
+	</tr>
+	<tr>
+		<td> The Onceler (2012) </td>
+	</tr>
+	<tr>
+		<td> Sam Hutton (Incumbent) </td>
+	</tr>
+</table>
+
+For a list of past committees, see the [Past Committees page](@/past_committees.md).
+
+For a list of very past committees, see the [archives](@/archive.md).
+<!-- End committee.txt -->

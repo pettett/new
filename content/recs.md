@@ -1,0 +1,445 @@
+﻿+++
+title = "CUSFS Recommendations List (2014)"
++++
+
+
+<!-- Begin recs.txt -->
+
+<p>Requests for recommendations come up often in CUSFS discussions. In order to save ourselves the trouble of repeating the same things ad nauseum, we sacrificed several hours of our life and put together this list (or rather, this list of lists) to serve as a first reference. The books are grouped by genre, though quite often the lines are blurred.</p>
+
+<p>I've attempted to include descriptions where I could, but obviously I've not read all the books on this list. If there are any gaps you can fill in, do e-mail me (fhd21). You can also get in touch if you feel very strongly about adding something (or removing something), though I can't guarantee anything will come of it.</p>
+
+<p>Without further ado, here is the list of CUSFS recommendation lists:</p>
+
+<ol>
+	<li><a href="#classic-sf">Classic Science Fiction</a></li>
+	<li><a href="#hard-sf">Hard Science Fiction</a></li>
+	<li><a href="#topias">*topias</a></li>
+	<li><a href="#space-opera">Space Opera</a></li>
+	<li><a href="#punk">Punk Punk</a></li>
+	<li><a href="#classic-f">Classic Fantasy</a></li>
+	<li><a href="#epic-f">Epic Fantasy</a></li>
+	<li><a href="#worlds">Real/Parallel Worlds</a></li>
+	<li><a href="#institutions">Institutional Magic</a></li>
+	<li><a href="#horror">Horror</a></li>
+	<li><a href="#misc">Miscellaneous</a></li>
+</ol>
+
+<br>
+
+<h2 id="classic-sf">Classic Science Fiction</h2>
+
+<p>These books could probably have gone under one of the other science fiction categories but are included here because they're particularly important in the development of the genre. They include 19th century precursors to science fiction as well as representative books by the great writers of the 20th century.</p>
+
+<table border="1" cellpadding="5" cellspacing="5" width="100%">
+	<tr>
+		<th>Title</th>
+		<th>Author</th>
+		<th>Comments and Criticism</th>
+	</tr>
+
+	<tr>
+		<td width="10%"><i>Foundation</i></td>
+		<td width="10%">Isaac Asimov</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Lost World</i></td>
+		<td width="10%">Arthur Conan-Doyle</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Moon is a Harsh Mistress</i></td>
+		<td width="10%">Robert A Heinlein</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Rendezvous with Rama</i></td>
+		<td width="10%">Arthur C. Clarke</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Ringworld</i></td>
+		<td width="10%">Larry Niven</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Day of the Triffids</i></td>
+		<td width="10%">John Wyndham</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Time Machine</i></td>
+		<td width="10%">H.G. Wells</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Journey to the Centre of the Earth</i></td>
+		<td width="10%">Jules Verne</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Do Androids Dream of Electric Sheep?</i></td>
+		<td width="10%">Philip K. Dick</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Slaughterhouse-Five</i></td>
+		<td width="10%">Kurt Vonnegut</td>
+		<td></td>
+	</tr>
+</table>
+
+<p><i>Last recorded update: 12 March 2012, by James Robson</i></p>
+<br>
+
+<h2 id="hard-sf">Hard Science Fiction</h2>
+
+<p>Hard science fiction tends to focus more on the "science" than the "fiction". As a general rule of thumb, it avoids relying too much on things beyond the possible, and often explores the ramifications of a single development (often some sort of faster-than-light capabilities) on the future of human society.</p>
+
+<table border="1" cellpadding="5" cellspacing="5" width="100%">
+	<tr>
+		<th>Title</th>
+		<th>Author</th>
+		<th>Comments and Criticism</th>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Algebraist</i></td>
+		<td width="10%">Iain M. Banks</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Ender's Game</i></td>
+		<td width="10%">Orson Scott Card</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Revelation Space</i></td>
+		<td width="10%">Alastair Reynolds</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Time Ships</i></td>
+		<td width="10%">Stephen Baxter</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Luminous</i></td>
+		<td width="10%">Greg Egan</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>A Fire Upon The Deep</i></td>
+		<td width="10%">Vernor Vinge</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Red Mars</i></td>
+		<td width="10%">Kim Stanley Robinson</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Black Cloud</i></td>
+		<td width="10%">Sir Fred Hoyle</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Tau Zero</i></td>
+		<td width="10%">Poul Anderson</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Glasshouse</i></td>
+		<td width="10%">Charlie Stross</td>
+		<td></td>
+	</tr>
+</table>
+
+<p><i>Last recorded update: 12 March 2012, by James Robson</i></p>
+<br>
+
+<h2 id="topias">*topias</h2>
+
+<p>A selection of utopian and dystopian fiction. A distinction can be made between those books (such as Nineteen Eighty-Four) where the dystopia <em>is</em> the story, and those which merely use utopian or dystopian settings to tell a story. Both are included here.</p>
+
+<table border="1" cellpadding="5" cellspacing="5" width="100%">
+	<tr>
+		<th>Title</th>
+		<th>Author</th>
+		<th>Comments and Criticism</th>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Handmaid's Tale</i></td>
+		<td width="10%">Margaret Atwood </td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Shade's Children</i></td>
+		<td width="10%">Garth Nix</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Dispossessed</i></td>
+		<td width="10%">Ursula K. Le Guin</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Giver</i></td>
+		<td width="10%">Lois Lowry</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>1984</i></td>
+		<td width="10%">George Orwell</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Brave New World</i></td>
+		<td width="10%">Aldous Huxley</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>We</i></td>
+		<td width="10%">Yevgeny Zamyatin</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Make Room! Make Room!</i></td>
+		<td width="10%">Harry Harrison</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Fahrenheit 451</i></td>
+		<td width="10%">Ray Bradbury</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>A Canticle For Leibowitz</i></td>
+		<td width="10%">Walter M. Miller, Jr.</td>
+		<td></td>
+	</tr>
+</table>
+
+<p><i>Last recorded update: 12 March 2012, by James Robson</i></p>
+<br>
+
+<h2 id="space-opera">Space Opera</h2>
+
+<span class="quote">"Spaaaaaaaaace." -- Binney</span>
+
+<p>Space opera is the science fiction equivalent of epic fantasy. Quintessentially represented by Star Wars, space operas tend to be very large in scale and feature typically monomythic plots.</p>
+
+<table border="1" cellpadding="5" cellspacing="5" width="100%">
+	<tr>
+		<th>Title</th>
+		<th>Author</th>
+		<th>Comments and Criticism</th>
+	</tr>
+	<tr>
+		<td width="10%"><i>Hyperion</i></td>
+		<td width="10%">Dan Simmons</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Player of Games</i></td>
+		<td width="10%">Iain M. Banks</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Warrior's Apprentice</i></td>
+		<td width="10%">Lois McMaster Bujold</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Cities in Flight</i></td>
+		<td width="10%">James Blish</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>A Princess of Mars</i></td>
+		<td width="10%">Edgar Rice Burroughs</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Hitchhiker's Guide to the Galaxy</i></td>
+		<td width="10%">Douglas Adams</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Galactic Patrol</i></td>
+		<td width="10%">E. E. Smith</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Nova</i></td>
+		<td width="10%">Samuel R. Delany</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Dune</i></td>
+		<td width="10%">Frank Herbert</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Ciaphas Cain: Hero of the Imperium</i></td>
+		<td width="10%">Sandy Mitchell</td>
+		<td></td>
+	</tr>
+</table>
+
+<p><i>Last recorded update: 12 March 2012, by James Robson</i></p>
+<br>
+
+<h2 id="punk">Punk Punk</h2>
+
+<p>What on Earth does the -punk suffix mean? No one really knows. From steampunk to cyberpunk via salvagepunk, though, these novels are influenced by a particular aesthetic in their settings which is somehow instantly recognisable.</p>
+
+<table border="1" cellpadding="5" cellspacing="5" width="100%">
+	<tr>
+		<th>Title</th>
+		<th>Author</th>
+		<th>Comments and Criticism</th>
+	</tr>
+	<tr>
+		<td width="10%"><i>Neuromancer</i></td>
+		<td width="10%">William Gibson</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Difference Engine</i></td>
+		<td width="10%">William Gibson and Bruce Sterling</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Stand On Zanzibar</i></td>
+		<td width="10%">John Brunner</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Snow Crash</i></td>
+		<td width="10%">Neal Stephenson</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Cryptonomicon</i></td>
+		<td width="10%">Neal Stephenson</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Down and Out in the Magic Kingdom</i></td>
+		<td width="10%">Cory Doctorow</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Mindstar Rising</i></td>
+		<td width="10%">Peter F. Hamilton</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Mortal Engines</i></td>
+		<td width="10%">Philip Reeve</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Halting State</i></td>
+		<td width="10%">Charlie Stross</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>A Tale of Time City</i></td>
+		<td width="10%">Diana Wynne Jones</td>
+		<td></td>
+	</tr>
+</table>
+
+<p><i>Last recorded update: 12 March 2012, by James Robson</i></p>
+<br>
+
+<h2 id="classic-f">Classic Fantasy</h2>
+
+<p>Like the classic SF list, these are major books which have informed the development of the fantasy genre in the last century and a half or so.</p>
+
+<h2 id="epic-f">Epic Fantasy</h2>
+
+<p>To avoid getting bogged down in the debate of what precisely we mean by epic fantasy, let's just say that it includes at least some of these elements: a large cast with multiple point-of-view characters, some sort of good-vs-evil plot, large geographical scale (often with the associated geopolitics), extreme length, and dragons. As a general rule, the bigger the scale the more epic the fantasy.</p>
+
+<h2 id="worlds">Real/Alternate Worlds</h2>
+
+<p>Books set in the real world or some approximation of it. Genres like urban fantasy and alternate history fall under this heading, as do some things slightly further afield.</p>
+
+<h2 id="institutions">Institutional Magic</h2>
+
+<p>This list covers books featuring magical instutitions (often schools or universities) and also those which treat magic itself as an instition within, for example, the confines of government.</p>
+
+<h2 id="horror">Horror</h2>
+
+<p>It's scary.</p>
+
+<br>
+
+<h2 id="misc">Miscellaneous</h2>
+
+<p>Does what it says on the tin.</p>
+
+<table border="1" cellpadding="5" cellspacing="5" width="100%">
+	<tr>
+		<th>Title</th>
+		<th>Author</th>
+		<th>Comments and Criticism</th>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Left Hand of Darkness</i></td>
+		<td width="10%">Ursula K. Le Guin</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Cloud Atlas</i></td>
+		<td width="10%">David Mitchell</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Lord of Light</i></td>
+		<td width="10%">Roger Zelazny</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Anathem</i></td>
+		<td width="10%">Neal Stephenson</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>First and Last Men</i></td>
+		<td width="10%">Olaf Stapledon</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Lilith's Brood</i></td>
+		<td width="10%">Octavia Butler</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Machine of Death</i></td>
+		<td width="10%">Various, edited by Ryan North, Matthew Bennardo and David Malki</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Embassytown</i></td>
+		<td width="10%">China Mi�ville</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>The Illuminatus! Trilogy</i></td>
+		<td width="10%">Robert Shea and Robert Anton Wilson</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td width="10%"><i>Hothouse</i></td>
+		<td width="10%">Brian Aldiss</td>
+		<td></td>
+	</tr>
+</table>
+
+<p><i>Last recorded update: 12 March 2012, by James Robson</i></p>
+<br>
+
+<!-- End recs.txt -->

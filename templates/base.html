@@ -1,0 +1,131 @@
+<!-- Begin top.txt -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Cambridge University Science Fiction Society (and J&oacute;msborg the New)</title>
+	<link rel="stylesheet" href="/style1.css" type="text/css">
+</head>
+<!-- End top.txt -->
+
+<body>
+
+	<!-- Begin events.txt -->
+	<aside id="events">
+		<h1>Forthcoming Events</h1>
+		<!--
+  <h2>Special</h2>
+  <ul>
+    <li>
+      <span class="meeting">Post-AGM Board Games</span>
+      <ul>				 
+	<li><b>When:</b> 19:30, Friday 11th March 2022</li>
+	<li><b>Where:</b> Emmanuel College Old JCR, meeting at the porter's lodge at 19:25.</li>
+	<li>An evening of board games at which the Vice Presidents for the year will be chosen, as well as introduction to the new committee.</li>
+      </ul>
+    </li>
+-->
+
+		<h2>Weekly</h2>
+		<h3 class="meeting">Discussion Meetings</h3>
+		<ul>
+			<tmpl_loop name="discussion_summary">
+				<li>
+					<tmpl_var name="txt" />
+				</li>
+			</tmpl_loop>
+		</ul>
+
+		<h3 class="meeting">Film Nights</h3>
+		<ul>
+			<tmpl_loop name="film_summary">
+				<li>
+					<tmpl_var name="txt" />
+				</li>
+			</tmpl_loop>
+		</ul>
+
+		<h3 class="meeting">Pub</h3>
+		<ul>
+			<tmpl_loop name="pub_summary">
+				<li>
+					<tmpl_var name="txt" />
+				</li>
+			</tmpl_loop>
+		</ul>
+		<li> Last Updated: 04/10/2023 by Maxwell Pettett </li>
+
+	</aside>
+	<!-- End events.txt -->
+
+
+
+	<div id="container1">
+
+		<a href="https://www.srcf.net/"><img src="https://www.srcf.net/images/poweredby-light-transparent.svg" alt="Powered by the Student-Run Computing Facility (SRCF)"></a>
+		<div id="header">
+
+			<a href="home"><img src="/images/CuddlyAlien2.png" alt="Cuddly alien" title="CUSFS"></a>
+		</div>
+
+
+		<div class="container">
+			<div id="container2">
+				<div id="content">
+
+					{% block content %} {% endblock %}
+
+				</div>
+			</div>
+
+
+			<div id="footer">
+				<!--<p>Layout and design by Filip Drnovsek Zorko based on a skeleton by antialiasis.</p>    -->
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<nav id="leftmenu">
+		<div class="flex-aware fill">
+
+			<div>
+				<a href="home"><img alt="CUSFS" src=/images/assets/cusfs-quarter-logo-3-49193b653549fb16cf36989864e16fff.png></a>
+			</div>
+
+
+			<ul class="orange-border flex-aware">
+				<li><span class="heading orange-bg">Society</span>
+					<ul>
+						<li><a href="home">Home</li>
+						<li><a href="committee">Committee</a></li>
+						<li><a href="constitution">Constitution</a></li>
+						<li><a href="membership">Membership</a></li>
+						<li><a href="history">History</a></li>
+						<li><a href="privacy">Privacy</a></li>
+					</ul>
+				</li>
+
+				<li><span class="heading orange-bg">Resources</span>
+					<ul>
+						<li><a href="library">Library</a></li>
+						<li><a href="recs">Recommendations</a></li>
+						<li><a href="ttba">TTBA Magazine</a></li>
+						<li><a href="archive">Archive</a></li>
+					</ul>
+				</li>
+
+
+			</ul>
+		</div>
+	</nav>
+
+</body>
+
+<!-- Begin bottom.txt -->
+
+</html>
+<!-- End bottom.txt -->

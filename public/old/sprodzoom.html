@@ -1,0 +1,275 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC=html40/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+
+<title>The Rules of Sprodzoom</title>
+<!--
+<link rev="made" href="mailto:Gareth.Rees@cl.cam.ac.uk">
+-->
+</head>
+
+<body>
+<h1>The (Incomplete) Rules of Sprodzoom</h1>
+
+Compiled by Gareth Rees and Simon Arrowsmith<p>
+
+<hr>
+
+<h2>1. Introduction</h2>
+
+Sprodzoom is a multi-player game played (historically) by CUSFS and Trinity
+Mathematical Society.  It is suitable both as a drinking game (with penalties)
+and as a complex spectator sport.<p>
+
+<hr>
+
+<h2>2. Main Concepts</h2>
+
+A <strong>Conversation</strong> takes place between two players and has an
+<strong>Active</strong> and a <strong>Passive</strong> end.  In general, the
+player at the active end is "due to speak" (i.e. to make a gesture).<p>
+
+A <strong>Gesture</strong> is the basic component of Sprodzoom, and is any
+motion of the hands or body that might have some meaning in the game.  The
+player who makes a gesture will be referred to as the <strong>Actor</strong>.
+A gesture may be <strong>Directed</strong>, that is, pointed at another player
+in the game.  A gesture may not be directed at the actor.  The player thus
+pointed at will be referred to as the <strong>Recipient</strong>.<p>
+
+A conversation has a <strong>Label</strong> (i.e. a gesture not pre-defined in
+the game), to enable it to be distinguished from other conversations that may
+be in progress.  In most cases, a label precedes a gesture to form a move in
+the conversation selected by that label.  A label may be
+<strong>Pending</strong> if a conversation has been created but not labelled.
+In this case the active player in that conversation must label it (using the
+Moradice gesture, see below) before making any other gesture.  The label of the
+first conversation in a game is the <strong>Null</strong> label.<p>
+
+To <strong>Reply</strong> in a conversation is to swap the active and passive
+ends of that conversation.<p>
+
+
+<hr>
+
+<h2>3. Definitions</h2>
+
+<dl>
+<dt><strong>Gestures</strong></dt>
+<dd>The set of all gestures.</dd>
+
+<dt><strong>Labels</strong></dt>
+<dd>The set of permissible labels; all gestures not predefined.</dd>
+
+<dt><strong>Players</strong></dt>
+<dd>The set of players currently in the game.</dd>
+
+<dt><strong>Conversations</strong>
+<dd>The set of conversations in progress (initially Conversations is empty).  A
+conversation is a triple (a,p,l) where a is the active participant, p the
+passive participant and l the label.  Different conversations must have
+different labels.</dd>
+
+<dt><strong>active(c)</strong></dt>
+<dd>The active participant in conversation c.</dd>
+
+<dt><strong>passive(c)</strong></dt>
+<dd>The passive participant in conversation c.</dd>
+
+<dt><strong>label(c)</strong></dt>
+<dd>The label of conversation c.</dd>
+
+<dt><strong>left(p)</strong></dt>
+<dd>The player sitting to the left of player p.</dd>
+
+<dt><strong>right(p)</strong></dt>
+<dd>The player sitting to the right of player p.</dd>
+
+<dt><strong>reply(c)</strong></dt>
+<dd>The conversation produced by replying in the conversation c, i.e., the
+conversation (passive(c), active(c), label(c)).</dd>
+
+<dt><strong>+</strong></dt>
+<dd>The operator that concatenates two gestures.</dd>
+</dl>
+
+<hr>
+
+<h2>4. You are in error if</h2>
+<ul>
+<li>You make a gesture with the incorrect syntax, or make a gesture when it is
+not legal to do so.</li>
+
+<li>You end up talking to yourself, or cause someone to be talking to themself
+(the Rule of Sanity).</li>
+
+<li>You create two conversations with the same label (the Rule of Ambiguity).</li>
+
+<li>You at the active end of a conversation for more than thirty seconds (Rule
+32).</li>
+</ul>
+
+When a player is in error, the conversation in which the illegal move was made
+comes to an end.  It is traditional for other players in a game to direct
+wergs (see below) at a player who is in error.<p>
+
+<hr>
+
+<h2>5. Pre-defined Gestures</h2>
+
+Where appropriate, c (and d) stand for the
+conversation(s) in which the gesture takes place, actor is the
+player making the gesture and recipient is the person at whom the
+gesture is directed.
+
+<h3>Fortnum</h3>
+<strong>Gesture</strong>: A tweak of the left ear-lobe.<br>
+<strong>Syntax</strong>: Fortnum<br>
+<strong>Legal</strong>: At any time.<br>
+<strong>Effect</strong>: open quote.  All subsequent gestures (until a mason is
+performed by the actor) have no effect in any conversation.
+
+<h3>Mason</h3>
+<strong>Gesture</strong>: A tweak of the right ear-lobe.<br>
+<strong>Syntax</strong>: Mason<br>
+<strong>Legal</strong>: if the actor has made a fortnum but not yet provided a
+closing mason at that level (fortnum and mason may be nested).<br>
+<strong>Effect</strong>: See fortnum.
+
+<h3>Werg (directed)</h3>
+<strong>Gesture</strong>: A pawing motion with both hands.<br>
+<strong>Syntax</strong>: Werg<br>
+<strong>Legal</strong>: When the recipient is in error.<br>
+<strong>Effect</strong>: None.<br>
+<strong>Note</strong>: It is traditional to direct wergs at players who are in
+error, in order that they realise this.  There is no special penalty (other
+than general ridicule) for making a werg in error.
+
+<h3>Sprod (directed)</h3>
+<strong>Gesture</strong>: Left hand swings forward from the shoulder in a
+pointing motion.<br>
+<strong>Syntax</strong>: Sprod<br>
+<strong>Legal</strong>: When no game is in progress.<br>
+<strong>Effect</strong>: Starts a game with empty Conversations and Players
+containing only actor and recipient.<br>
+<strong>Note</strong>: There's little use in starting a game with no
+conversations.  Use a sprodzoom instead.
+
+<h3>Zoom (directed)</h3>
+<strong>Gesture</strong>: Right hand swings forward from the shoulder in a
+pointing motion.<br>
+<strong>Syntax</strong>: Zoom<br>
+<strong>Legal</strong>: When a game with no conversations is in progress.<br>
+<strong>Effect</strong>: Sets Conversations to contain only the conversation
+(recipient,actor,NULL).<br>
+<strong>Note</strong>: Used to continue a game in which all conversations have
+been destroyed (typically by their participants being in error).
+
+<h3>Sprodzoom (directed)</h3>
+<strong>Gesture</strong>: A sprod and a zoom combined in a single,
+double-handed pointing motion.<br>
+<strong>Syntax</strong>: Sprodzoom<br>
+<strong>Legal</strong>: When no game is in progress.<br>
+<strong>Effect</strong>: Starts a game with Players containing only actor and
+recipient and Conversations containing only the conversation
+(recipient,actor,NULL).<br>
+<strong>Note</strong>: Games are typically started by a sprodzoom, rarely by
+sprod and zoom separately.
+
+<h3>Schwarz (directed)</h3>
+<strong>Gesture</strong>: Fingers of both hands interlinked and the palms are
+pushed towards the recipient.<br>
+<strong>Syntax</strong>: label(c) + Schwarz<br>
+<strong>Legal</strong>: If actor is active(c) and recipient is passive(c).<br>
+<strong>Effect</strong>: Sets c to reply(c).
+
+<h3>Profigliano (directed)</h3>
+<strong>Gesture</strong>: A pedalling motion with both feet.<br>
+<strong>Syntax</strong>: label(c) + Profigliano<br>
+<strong>Legal</strong>: If actor is active(c) and recipient is not
+passive(c).<br>
+<strong>Effect</strong>: Sets c to reply(c) and adds recipient to Players.<br>
+<strong>Note</strong>: Enters the recipient into the game, if not already in.
+
+<h3>Neuralnic</h3>
+<strong>Gesture</strong>: The actor pats the left side of the head with right
+hand, and vice versa, with arms folded over the top of the head.<br>
+<strong>Syntax</strong>: label(c) + Neuralnic<br>
+<strong>Legal</strong>: If actor is active(c) and passive(c) is not
+left(actor).<br>
+<strong>Effect</strong>: Sets active(c) to left(actor) and sets c to
+reply(c).<br>
+<strong>Note</strong>: Transfers the actor's end of the conversation to the
+left and replies in that conversation.
+
+<h3>Pericles (directed)</h3>
+<strong>Gesture</strong>: A slow waving motion with both arms extended to the
+sides, while the mouth opens and closes in a fish-like motion and the eyes are
+rolled.<br>
+<strong>Syntax</strong>: label(c) + Pericles<br>
+<strong>Legal</strong>: If actor is active(c) and recipient is not
+passive(c).<br>
+<strong>Effect</strong>: Sets active(c) to recipient and adds the conversation
+(right(actor), actor, PENDING) to Conversations.<br>
+<strong>Note</strong>: Transfers your end of the conversation to the recipient,
+who then must reply in it, and also creates a conversation between you and the
+player on your right, who must create a label and then reply in it.
+
+<h3>Omsk</h3>
+<strong>Gesture</strong>: Hands are clapped above the actor's head.<br>
+<strong>Syntax</strong>: label(c) + Omsk + label(d)<br>
+<strong>Legal</strong>: When actor is active(c) and also active(d) and
+passive(c) is not the same as passive(d).<br>
+<strong>Effect</strong>: Removes c and d from Conversations ands adds the new
+conversation (passive(c), passive(d), label(c) + label(d)).<br>
+<strong>Note</strong>: Creates a new conversation which is the join of two
+others, which are removed from the game.  Compare with minsk.
+
+<h3>Minsk</h3>
+<strong>Gesture</strong>: Hands are clapped behind the actor's back.<br>
+<strong>Syntax</strong>: label(c) + Minsk + label(d)<br>
+<strong>Legal</strong>: When actor is active(c) and active(d) and passive(c) is
+also passive(d).<br>
+<strong>Effect</strong>: Removes c and d from Conversations ands adds the new
+conversation (actor, passive(c), label(c) + label(d)).<br>
+<strong>Note</strong>: Create a new conversation which is the join of two
+others that have exactly the same participants, and which are removed from the
+game.  Compare with omsk.
+
+<h3>Moradice</h3>
+<strong>Gesture</strong>: The actor looks in a (possibly imaginary) inside
+jacket pocket.<br>
+<strong>Syntax</strong>: Moradice + label(c) + g (where g is a new gesture)<br>
+<strong>Legal</strong>: When actor is active(c).<br>
+<strong>Effect</strong>: Sets label(c) to g.<br>
+<strong>Note</strong>: Change the label of the conversation.  Watch out for the
+Rule of Ambiguity.
+
+<h3>Valhalla</h3>
+<strong>Gesture</strong>: Hands waved from side to side in opposite directions,
+palms downwards, in front of the actor's torso.<br>
+<strong>Syntax</strong>: Valhalla<br>
+<strong>Legal</strong>: When a game is in progress, but preferably no
+conversations.<br>
+<strong>Effect</strong>: Terminates the game.<p>
+
+<hr>
+<!-- Mark Waller, 2001-10-06
+ * the contact details in this comment are retained for historical completeness;
+ * they're all out of date, by anything up to 6 or 7 years! 
+[E&#173;mail: <a href="mailto:Gareth.Rees@cl.cam.ac.uk">Gareth.Rees@cl.cam.ac.uk</a>]<br>
+[E&#173;mail: <a href="sion@bast.demon.co.uk">sion@bast.demon.co.uk</a>]<br>
+[Up: <a href="http://myrddin.chu.cam.ac.uk/cusfs/index.html">CUSFS</a>]
+-->
+<address>
+HTML last updated: 24 April 2002, by Mark Waller<br>
+Please send comments and queries about Sprodzoom to
+<a href="mailto:siona@chiark.greenend.org.uk">Sion Arrowsmith</a><br>
+Please send comments and queries about CUSFS and this website to
+<b>soc-cusfs at lists dot cam dot ac dot uk</b>
+</address>
+
+<p>Back to <a href="index.html">CUSFS home page</a></p>
+</body>
+</html>

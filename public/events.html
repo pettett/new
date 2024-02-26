@@ -1,0 +1,47 @@
+<!-- Begin events.txt -->
+<aside id="events">
+	<h1>Forthcoming Events</h1>
+	<!--
+  <h2>Special</h2>
+  <ul>
+    <li>
+      <span class="meeting">Post-AGM Board Games</span>
+      <ul>				 
+	<li><b>When:</b> 19:30, Friday 11th March 2022</li>
+	<li><b>Where:</b> Emmanuel College Old JCR, meeting at the porter's lodge at 19:25.</li>
+	<li>An evening of board games at which the Vice Presidents for the year will be chosen, as well as introduction to the new committee.</li>
+      </ul>
+    </li>
+-->
+
+	<h2>Weekly</h2>
+	<h3 class="meeting">Discussion Meetings</h3>
+	<ul>
+		<tmpl_loop name="discussion_summary">
+			<li>
+				<tmpl_var name="txt" />
+			</li>
+		</tmpl_loop>
+	</ul>
+
+	<h3 class="meeting">Film Nights</h3>
+	<ul>
+		<tmpl_loop name="film_summary">
+			<li>
+				<tmpl_var name="txt" />
+			</li>
+		</tmpl_loop>
+	</ul>
+
+	<h3 class="meeting">Pub</h3>
+	<ul>
+		<tmpl_loop name="pub_summary">
+			<li>
+				<tmpl_var name="txt" />
+			</li>
+		</tmpl_loop>
+	</ul>
+	<li> Last Updated: 04/10/2023 by Maxwell Pettett </li>
+
+</aside>
+<!-- End events.txt -->

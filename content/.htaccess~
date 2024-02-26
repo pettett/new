@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteBase /societies/cusfs/public_html/
+RewriteRule ^new\/([a-z]+)$ $1 [R=301, L]
+
+
+DirectoryIndex index.html index.cgi

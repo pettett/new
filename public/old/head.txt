@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC=html40/loose.dtd">
+<html><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"><title>CUSFS Library Catalogue</title></head><body>
+<h1>The CUSFS Library Catalogue</h1>
+
+<p>This is the catalogue of the library of the CU Science Fiction Society. At present we have
+a little over 5000 books. Borrowing is free but limited to CUSFS members.
+See the <a href="http://www.srcf.ucam.org/cusfs/member.html">membership page</a> for details of how to join.</p>
+<p>In addition, we have a large quantity of SF magazines from various eras (currently catalogued only on a card database; I will be happy to check the existence of a particular item, or show the catalogue to members). Thanks to a recent donation, we have a large back collection of Interzone magazine, which is currently uncatalogued.</p> 
+
+<p> If there's something here you want
+to borrow, simply email the Librarian at
+<b>soc-cusfs-library at lists dot cam dot ac dot uk</b>
+to arrange a time to collect it. Please cut-and-paste the relevant catalogue
+lines into your mail if you can (including all the numbers etc.) as this helps
+with fetching the books. The best way to borrow or return library books is at discussions/events *with advance warning*.
+
+</p><p> Books marked 'out' are currently on loan; books marked 'X' are being
+repaired. These can be borrowed eventually but may take a while to become
+available. Please ask if you're interested in something as this will probably
+accelerate the process!
+
+</p><p>See also <a href="http://www.srcf.ucam.org/cusfs/cat-new.html">What's New?</a>
+
+</p><p>There is also a mostly-complete list of our infinite <a href="http://www.srcf.ucam.org/cusfs/cat-startrek.html">Star Trek collection</a>
+by number rather than author.
+
+</p><p>Key to letters:<br>
+A = anthology - D = double - N = non-fiction<br>
+X = temporarily withdrawn for repair<br>
+J = Originally donated to J&oacute;msborg</p>
+
+<hr>
+<address>
+Catalogue last updated:29 March 2008<br>
+Maintained by Simeon Bird<br>
+Please send any comments and questions about the library, CUSFS or this website to
+<b>soc-cusfs at lists dot cam dot ac dot uk</b>
+</address><br>
+
+Back to <a href="http://www.srcf.ucam.org/cusfs/index.html">CUSFS home page</a>
+<hr>

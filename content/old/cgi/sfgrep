@@ -1,0 +1,116 @@
+#!/usr/bin/perl --
+#
+# Changes:
+# 13/02/96: osd1000 changed html for white background
+# 04/11/94: sde1000 corrected spelling of 'catalogue'
+#
+# URLs are of the form
+#  http:...../sfgrep?<lots-of-crap>
+# `parseform' processes it
+
+require 'assist.pl';
+
+&parseform;
+
+%ha=split($ENV{'QUERY_STRING'},/+/);
+
+$authre= $ha{'author'};
+$titlere= $ha{'title'};
+
+# $authpr= &html_sanitise($authre);
+# $titlepr= &html_sanitise($titlere);
+
+$authss= $authre;   $authss =~ s/\W/\\$&/g;
+$titless= $titlere; $titless =~ s/\W/\\$&/g;
+
+if (length($authre) || length($titlere)) {
+    open(LIB,"/www/cusfs/cat.html") || die "aargh, failed to open catalogue: $!";
+
+    while(<LIB>) { last if m/^\<pre\>$/; }
+
+    @founds=();
+
+    while(<LIB>) {
+	last if m:^\</pre\>$:;
+	next unless m/\S/;
+	if (!m/^.[? ][*0-9 ]{4}  [ *]{2} (.{20})(.+)/) { push(@warns,$_); next; }
+	($auth,$title)= ($1,$2);
+	next unless $authre eq '' || $auth =~ m/$authre/oi || $auth =~ m/$authss/oi;
+	next unless $titlere eq '' || $title =~ m/$titlere/oi ||
+	    $title =~ m/$titless/oi;;
+	push(@founds,$_);
+    }
+    $results=" results";
+}
+close(LIB);
+
+print <<END;
+Content-Type: text/html
+
+<html><head><title>CUSFS Library search$results</title></head>
+<body bgcolor=#ffffff><h1>CUSFS Library catalogue search$results</h1>
+
+<form>
+Author: <input name="author" size="70" value="$authpr"><br>
+Title: <input name="title" size="70" value="$titlepr"><br>
+<input type="submit">
+<input type="reset" name="reset">(actually undo edits)
+or, <A href="/cgi-bin/group/cusfs/sfgrep">reset the search</A>.
+<p></form>
+(Search terms should be left blank for unrestricted search;
+they may be Perl regular expressions or simple substrings, both
+matched without regard to case.)
+END
+
+if (!$results) {
+    print <<END;
+<h2>No query submitted yet.</h2>
+Please enter your query above and then submit it.
+END
+} elsif (@founds) {
+    $nf= @founds;  $tx= join('',@founds);
+    print <<END;
+<h2>Match(es) found - $nf</h2>
+The following $nf match(es) were found in the catalogue:
+<pre>
+$tx</pre>
+END
+} else {
+    print <<'END';
+<h2>Nothing matched.</h2>
+Sorry, nothing was found in the catalogue matching the regular
+expressions you specified.
+END
+}
+
+if (@warns) {
+    $nf= @warns;  $tx= join('',@warns);
+    print <<END;
+<h2>Warning - bogus entries !</h2>
+The following entries in the catalogue file don't appear to be valid.
+No attempt was made to match them.  Please contact the librarian to
+have these fixed.
+<pre>
+$tx</pre>
+END
+}
+
+print <<'END';
+<p>
+The <A href="/cusfs/cat.html">full catalogue</A> is also available.
+</body></html>
+END
+
+sub error {
+    local ($em)= $_[0];
+    print <<END;
+Content-Type: text/html
+
+<html><head><title>Error</title></head>
+<body><h1>Sorry, an error occurred</h1>
+$em
+</body></html>
+END
+}
+
+exit(0);

@@ -1,0 +1,37 @@
+<!-- Begin events.txt -->
+<div id="events">
+  <h1>Forthcoming Events</h1>
+
+  <h2>Weekly</h2>
+
+  <ul>
+    <li>
+      <span class="meeting">Discussion Meetings</span>
+      <ul>				 
+        <li>When: 15:00-17:30, Sundays</li>
+        <li>Where: Variable. See the weekly email or the Facebook page.</li>
+        <li>A casual discussion about sci-fi and fantasy, loosely themed around a weekly topic.</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="meeting">Film Nights</span>
+      <ul>				 
+        <li>When: 19:30, Tuesdays</li>
+        <li>Where: To Be Decided.</li>
+        <li>We show a film, and usually hang around for a chat about it afterwards.</li>
+      </ul>
+    </li>
+
+    <!--
+    <li><span class="meeting">Pub</span>
+      <ul>				 
+        <li>When: 19:30, Thursdays</li>
+        <li>Where: The Castle Pub</li>
+        <li>We talk sci-fi in a pub. Food and drink optional.</li>
+      </ul>
+    </li>
+    -->
+  </ul>
+</div>
+<!-- End events.txt -->
